@@ -1,13 +1,4 @@
-import React from "react";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-import nav.jsx from  './nav.jsx'
-
-//create your first component
-const Home = () => {
-	return (
-		<nav className="navbar navbar-expand-lg bg-dark">
+<nav className="navbar navbar-expand-lg bg-dark">
   <div class="container-fluid">
     <a className="navbar-brand text-light" href="#">Bootstrap</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +22,3 @@ const Home = () => {
     </div>
   </div>
 </nav>
-	);
-};
-
-export default Home;
